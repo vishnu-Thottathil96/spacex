@@ -1,0 +1,137 @@
+body{
+    color: #171a28;
+    font-family: 'Rubik', sans-serif;
+    
+    
+}
+header{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed; 
+    
+} 
+
+header a{
+    color: inherit;
+   
+}
+header nav a{
+    text-decoration: none;
+    padding:5px 10px ;
+}
+header nav.center{
+    text-align: center;
+}
+section{
+   height: 100vh;
+   background-size: cover;
+  
+}
+
+.content{
+     position: absolute; 
+    margin-left: 110px;
+    margin-top: 500px;
+
+}
+
+.content h1{
+    font-size: 50px;
+   margin-right: 20px;
+   color: #fff;
+   margin: 5px;
+}
+.content p{
+    font-size: 25px;
+    font-weight: 250;
+    color: #fff;
+    margin: 5px;
+}
+
+
+
+.center a{
+    color: #fff;
+   
+    font-size: medium;
+}
+
+.center{
+    margin-left: 50px;
+    margin-top: 45px;
+    
+}
+.btn{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #fff;
+    width: 190px;
+    height: 57px;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: medium;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+.right{
+    margin-left: 150px;
+    margin-top: 45px;
+}
+.right a{
+    color: #fff;
+   
+    font-size: medium;
+    float: left; 
+}
+.logo{
+    margin-top: 37px;
+   width: 250px;
+   height: auto;
+   margin-left: 100px;
+  
+}
+
+.bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 2px;
+    background-color: white;
+    margin: 2px 0;
+    
+    
+  }
+  .container{
+    margin-left: 100px;
+    margin-top: 9px;
+    cursor: pointer;
+    
+   
+  }
+  
+ 
+  .footer p a{
+   
+    padding-right: 40px;
+    text-decoration-line: none;
+    color: #fff;
+  } 
+ 
+.footer{
+    /* width: 1680px;*/
+    height: 90px; 
+    background-color: black;
+    margin-top: -16px;
+    text-align: center;
+    padding-top: 25px;
+  
+}
+.flink{
+    padding-right: 50px;
+    color: rgb(112, 112, 111);
+} 
